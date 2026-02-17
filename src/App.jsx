@@ -76,5 +76,5 @@ function App() {
     </div>
   );
 }
-
+// Bonus : Afficher l'option la plus votée 
 export default App;
