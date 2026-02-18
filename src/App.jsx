@@ -16,7 +16,7 @@ function App() {
   // Calcul du total des votes
   const totalVotes = options.reduce((sum, option) => sum + option.votes, 0);
 
-  // Fonction pour voter (incrémenter les votes)
+  // Fonction pour voter 
   const handleVote = (id) => {
     setOptions(options.map(option => 
       option.id === id 
